@@ -1,0 +1,136 @@
+body {
+    background-color: #6a6661;
+  }
+
+label.title{
+    position: absolute;
+    font-size: x-large;
+    margin-top: 20px;
+    left: 6%;
+    font-family: "Courier New", Courier, monospace;
+}
+.title-1{
+    border: solid 5px #2e2e2e;
+    text-align: left;
+    background-color: transparent;
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    margin: 5%;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 1em;
+    line-height: 1.5em;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  .map-button{
+    border: solid 5px #2e2e2e;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 5%;
+    max-height: auto;
+    right: 15%;
+    align-self: right;
+    padding: 1rem 1rem;
+    margin: 100 1rem;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    outline: none;
+    background-color: #b8a476;
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.cancel-button{
+    border: solid 5px #2e2e2e;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 5%;
+    max-height: auto;
+    right: 28%;
+    align-self: right;
+
+    padding: 1rem 1rem;
+    margin: 100 1rem;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    outline: none;
+    background-color: #b8a476;
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  @media (max-width: 620px) {
+    body section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 1rem;
+      padding-left: 0px;
+      padding-right: 10px;
+      max-width: 90%;
+   }
+     a .thick-line{
+      align-self: center;
+      margin-bottom: 2rem;
+   }
+   .map-button{
+    border: solid 5px #2e2e2e;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15%;
+    max-height: auto;
+    right: 10%;
+    align-self: right;
+    
+    padding: 1rem 1rem;
+    margin: 100 1rem;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+
+  .cancel-button{
+    border: solid 5px #2e2e2e;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10%;
+    max-height: auto;
+    right: 28%;
+    align-self: right;
+    
+    padding: 1rem 1rem;
+    margin: 100 1rem;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+
+  label.title{
+    position: relative;
+    font-size: x-large;
+    margin-top: 20px;
+    left: 6%;
+    font-family: "Courier New", Courier, monospace;
+}  }
