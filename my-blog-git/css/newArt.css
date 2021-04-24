@@ -5,9 +5,33 @@ body {
 label.title{
     position: absolute;
     font-size: x-large;
+    text-decoration: solid;
     margin-top: 20px;
     left: 6%;
     font-family: "Courier New", Courier, monospace;
+    
+}
+section a.lined.thick, body section a.lined.thick {
+  border: solid 7px #2e2e2e;
+  
+  display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 width: 95%;
+	 max-height: 100%;
+	 margin-bottom: 3rem;
+   align-self: left;
+	 background-color: #b8a476;;
+	 padding: 1rem 1rem;
+	 margin: 0 1rem;
+	 transition: all 0.5s ease;
+	 color: #fff;
+	 font-size: 2rem;
+	 letter-spacing: 1px;
+	 outline: none;
+	 box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  font-family: "Courier New", Courier, monospace;
+	 border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 .title-1{
     border: solid 5px #2e2e2e;
@@ -15,6 +39,7 @@ label.title{
     background-color: transparent;
     display: inline-block;
     width: 80%;
+    background-image: url("logo.png");
     height: auto;
     margin: 5%;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
