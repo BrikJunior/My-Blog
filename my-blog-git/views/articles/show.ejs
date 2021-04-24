@@ -11,27 +11,29 @@
 
 
 
-    <section>
-    <a class='lined thick'>My Blog</a>
+  <section>
+    <a class='lined thick'><%= article.title %></a>
   </section>
 
 
 
 
     
-<!----> <div id ='one'>
+<div id ='one'>
   <p>
-    <h1><%= article.title %></h1>
+    
     <p class="date-time">
-        <%= article.createdAt.toLocaleDateString() %>
+      <%= article.createdAt.toLocaleDateString() %>
     </p style="font-size: smaller;">
     <%= article.description %>
   </p>
-  <div><%- article.sanitizedHtml %></div>
+  <div>
+    <%- article.sanitizedHtml %>
+  </div>
   </div>
     <a href="/" class="all-button">All Articles</a>
     <a href="/articles/edit/<%= article.id %>" class="edit-button">Edit</a
-    ><!---->
+    >
  
 </body>
 </html>
